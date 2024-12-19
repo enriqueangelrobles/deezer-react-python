@@ -7,10 +7,11 @@ import {
   Avatar,
   Box,
   CircularProgress,
+  Typography,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
-const Header = ({ onSearch }) => {
+const Header = ({ onSearch, noResults }) => {
   const [query, setQuery] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
@@ -83,6 +84,15 @@ const Header = ({ onSearch }) => {
             sx={{ width: 40, height: 40 }}
           />
         </Toolbar>
+
+        {noResults && (
+          <Typography
+            variant="body2"
+            sx={{ textAlign: "center", color: "gray", mt: -2.5 }}
+          >
+            No results found.
+          </Typography>
+        )}
       </Box>
     </AppBar>
   );
