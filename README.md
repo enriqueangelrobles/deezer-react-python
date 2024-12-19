@@ -1,4 +1,4 @@
-# Flask and React Full-Stack Application with Docker
+# Micro Flask (Python) and React Full-Stack Application with Docker
 
 This project is a full-stack application that combines a micro Flask backend (Python) and a React frontend, running in Docker containers. The backend tracks artist and song playback statistics using an SQLite database, which is created automatically upon deployment. The frontend provides a user interface for interacting with the backend API.
 
