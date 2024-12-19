@@ -1,0 +1,26 @@
+# Global Ignored Files
+*.env
+*.log
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite3
+
+# Backend Ignored Files
+/backend/.env
+/backend/stats.db
+/backend/__pycache__/
+/backend/*.pyc
+/backend/migrations/
+
+# Frontend Ignored Files
+/frontend/.env
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.next/
+/frontend/.cache/
+/frontend/yarn-error.log
+/frontend/npm-debug.log*
