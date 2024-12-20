@@ -29,8 +29,7 @@ cd your-repository
 
 ## 2. Create the .env File
 
-# A `.env.example` file is provided in the `backend` folder. 
-# Create a `.env` file based on it:
+# A .env.example file is provided in both the backend and frontend folders. Create a .env file based on them by running:
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 
@@ -89,6 +88,7 @@ Project Structure
 │   ├── public/            # Static files
 │   ├── package.json       # Node.js dependencies
 │   ├── nginx.conf         # Nginx configuration
+│   ├── .env.example       # Environment variable example
 │   └── Dockerfile         # Dockerfile for frontend
 └── docker-compose.yml      # Docker Compose configuration
 
