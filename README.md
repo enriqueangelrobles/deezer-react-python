@@ -27,7 +27,7 @@ This project is a full-stack application that combines a micro Flask backend (Py
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 
-## 2. Create the .env File
+### 2. Create the .env File
 
 # A .env.example file is provided in both the backend and frontend folders. Create a .env file based on them by running:
 cp backend/.env.example backend/.env
@@ -35,7 +35,7 @@ cp frontend/.env.example frontend/.env
 
 Important: The RAPIDAPI_KEY variable in backend/.env.example is a fake placeholder and must be replaced with your valid RapidAPI key.
 
-## 3. Run the Application
+### 3. Run the Application
 
 # Start the application with Docker Compose:
 docker-compose up --build
@@ -46,7 +46,7 @@ Backend: Available at http://localhost:5000
 Frontend: Available at http://localhost:3000
 
 
-##  4. Access the Application
+###  4. Access the Application
 Open your browser and navigate to http://localhost:3000 to view the React frontend.
 Use the API endpoints at http://localhost:5000 for testing or integration.
 
