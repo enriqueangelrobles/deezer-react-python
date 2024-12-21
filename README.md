@@ -33,6 +33,8 @@ cd your-repository
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 
+Important: The RAPIDAPI_KEY variable in backend/.env.example is a fake placeholder and must be replaced with your valid RapidAPI key.
+
 ## 3. Run the Application
 
 # Start the application with Docker Compose:
